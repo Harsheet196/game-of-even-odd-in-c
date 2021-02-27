@@ -30,14 +30,14 @@ void Exe(int n2,char choice2)
 	 scanf("%c",&a);
 		 if(a=='y')
 		 {
-			input();
+			main();
 		 }
 		 else
 		 {
 			printf("\n sorry, we cant make u happy wid this game");
 		 }
 }
-void input()
+void main()
 {   char name[10],choice; int n1;
 	 printf("\nHey there welcome!!,Lets play a game of odd or even!!\n Please enter your name ");
 	 scanf("%s",&name);
@@ -47,10 +47,7 @@ void input()
 	 scanf("%d",&n1);
 	 Exe(n1,choice);
 }
-void main()
-{
-	input();
-}
+
 
 
 
