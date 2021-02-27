@@ -27,7 +27,7 @@ void Exe(int n2,char choice2)
 			 }
 		}
 	 printf("\nlets play again shall we??");
-	 scanf("%c",&a);
+	 scanf(" %c",&a);
 		 if(a=='y')
 		 {
 			input();
